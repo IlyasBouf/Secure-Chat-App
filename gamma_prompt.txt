@@ -1,0 +1,46 @@
+Create a comprehensive, 15-slide professional presentation about the "Secure Chat" project.
+
+### Project Context:
+Secure Chat is a privacy-focused messaging application designed to provide true End-to-End Encryption (E2EE), ensuring that messages are only readable by the sender and recipient, with the server acting as a "blind" relay.
+
+### Programming Languages & Technologies:
+- **Languages**: Python (Backend), JavaScript (Frontend), HTML, CSS.
+- **Backend Frameworks**: Python `websockets`, `asyncio`, `bcrypt`, `hmac`.
+- **Frontend Technologies**: Vanilla JavaScript, Web Crypto API, modern CSS3.
+- **Security Protocols**: 
+    - **ECDH P-256**: For secure key exchange between users.
+    - **AES-GCM-256**: For high-performance message encryption/decryption.
+    - **HMAC-SHA256**: For robust session token authentication.
+    - **Bcrypt**: For secure password hashing on the server.
+
+### Main Vision & Core Files:
+The primary goal is complete data sovereignty and privacy. The project is built around these core files:
+1. **server.py**: The Python-based nerve center that handles WebSocket communication, user authentication, and encrypted message relaying without ever seeing plaintext data.
+2. **crypto.js**: The security engine using the Web Crypto API to perform ECDH key derivation and AES encryption exclusively in the browser.
+3. **app.js**: Orchestrates the frontend logic, UI state, and real-time WebSocket interactions.
+4. **index.html & style.css**: Provide a premium, responsive user interface designed for a seamless chatting experience.
+
+### Side Vision:
+Beyond core security, the project aims for:
+- **User Presence**: Real-time tracking of online status.
+- **Interactive UX**: Typing indicators and delivery confirmations.
+- **Scalability**: A lightweight architecture capable of handling multiple concurrent secure sessions.
+
+### Presentation Structure (15 Slides):
+1. **Title Slide**: Project Name and Vision.
+2. **The Privacy Challenge**: Why standard messaging isn't enough.
+3. **The Secure Chat Solution**: Core concept of the "Blind Relay".
+4. **Tech Stack Overview**: Python, JS, and Web Crypto.
+5. **System Architecture**: How the client and server interact.
+6. **Deep Dive: server.py**: The role of the Python WebSocket server.
+7. **The Security Engine: crypto.js**: Explaining ECDH and AES-GCM.
+8. **Frontend Craftsmanship**: Exploring app.js, index.html, and style.css.
+9. **Authentication Flow**: Bcrypt, HMAC, and secure session management.
+10. **The Key Exchange Process**: How two strangers establish a secret.
+11. **E2EE in Action**: Visualizing the encryption path.
+12. **Real-time Features**: Presence tracking and typing indicators.
+13. **Data Sovereignty**: Why the server can't read your messages.
+14. **Future Roadmap**: Potential for Group Chats and AI integration.
+15. **Conclusion**: The future of secure communication.
+
+Please use a modern, professional, and "tech-secure" aesthetic (dark mode, blue/cyan accents) for the design.

@@ -1,0 +1,22 @@
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+
+# Local app/runtime data
+*.db
+*.sqlite
+*.sqlite3
+data/*.json
+
+# Generated or local media/artifacts
+*.mp4
+~$*
+
+# Environment and editor files
+.env
+.env.*
+.vscode/
+.idea/
+*.log
